@@ -6,4 +6,4 @@ db.query('select * from users', null, function(error, res){
 });
 */
 
-module.exports = require('./src/token')();
+module.exports = require('./src/broker')();

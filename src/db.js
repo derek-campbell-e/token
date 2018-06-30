@@ -6,7 +6,7 @@ module.exports = function Postgres(){
     host: 'localhost',
     password: 'example',
     port: 5432,
-    database: 'tokens'
+    database: 'api.ugenu.io'
   };
 
   const pool = new Pool(opts);
